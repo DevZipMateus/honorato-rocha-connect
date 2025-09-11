@@ -34,7 +34,7 @@ const Header = () => {
             onClick={() => scrollToSection("hero")}
           >
             <img
-              src="/lovable-uploads/8ebe353a-d59e-4949-93cc-46caf2d026d3.png"
+              src="/lovable-uploads/f08b8498-73d0-4f7f-a9d1-c1de091e1a8b.png"
               alt="Honorato e Rocha Contabilidade"
               className="h-10 sm:h-12 w-auto"
             />
