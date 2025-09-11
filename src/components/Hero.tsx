@@ -10,7 +10,9 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen bg-gradient-hero flex items-center relative overflow-hidden">
+    <section id="hero" className="min-h-screen flex items-center relative overflow-hidden" style={{backgroundImage: `url('/lovable-uploads/a37561d3-ca34-416b-8abe-351002e717d4.png')`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      {/* Dark overlay for better text readability */}
+      <div className="absolute inset-0 bg-primary/80"></div>
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5">
         <div className="w-full h-full bg-repeat" style={{
