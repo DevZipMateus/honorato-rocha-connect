@@ -24,7 +24,7 @@ const Header = () => {
       <nav className="container mx-auto px-4 py-2 lg:py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center cursor-pointer" onClick={() => scrollToSection("hero")}>
-            <img src="/lovable-uploads/f08b8498-73d0-4f7f-a9d1-c1de091e1a8b.png" alt="Honorato e Rocha Contabilidade" className="h-16 sm:h-14 w-auto" />
+            <img src="/lovable-uploads/f08b8498-73d0-4f7f-a9d1-c1de091e1a8b.png" alt="Honorato e Rocha Contabilidade" className="h-24 sm:h-14 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
