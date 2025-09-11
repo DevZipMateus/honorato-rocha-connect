@@ -65,7 +65,7 @@ const About = () => {
         </div>
 
         {/* Info Cards */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           <Card className="shadow-card hover:shadow-floating transition-all duration-300 group">
             <CardContent className="p-6 text-center">
               <div className="bg-accent/10 p-4 rounded-full w-fit mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
@@ -92,7 +92,7 @@ const About = () => {
             </CardContent>
           </Card>
 
-          <Card className="shadow-card hover:shadow-floating transition-all duration-300 group md:col-span-2 lg:col-span-1">
+          <Card className="shadow-card hover:shadow-floating transition-all duration-300 group md:col-span-2 lg:col-span-1 md:mx-auto lg:mx-0 md:max-w-sm lg:max-w-none">
             <CardContent className="p-6 text-center">
               <div className="bg-accent/10 p-4 rounded-full w-fit mx-auto mb-4 group-hover:bg-accent/20 transition-colors">
                 <Building2 className="h-8 w-8 text-accent" />

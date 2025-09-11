@@ -3,15 +3,15 @@ import { Phone, Mail, MapPin, Instagram, Building2 } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
-      <div className="container mx-auto px-4 py-12">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="container mx-auto px-4 py-8 lg:py-12">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <div className="flex items-center mb-6">
+            <div className="flex items-center mb-4 lg:mb-6">
               <img
                 src="/lovable-uploads/8ebe353a-d59e-4949-93cc-46caf2d026d3.png"
                 alt="Honorato e Rocha Contabilidade"
-                className="h-16 w-auto mr-4 bg-white/10 p-2 rounded-lg"
+                className="h-12 lg:h-16 w-auto mr-4 bg-white/10 p-2 rounded-lg"
               />
             </div>
             <p className="text-primary-foreground/80 mb-6 max-w-md leading-relaxed">

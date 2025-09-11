@@ -27,7 +27,7 @@ const Header = () => {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-white shadow-soft"
     >
-      <nav className="container mx-auto px-4 py-4">
+      <nav className="container mx-auto px-4 py-3 lg:py-4">
         <div className="flex items-center justify-between">
           <div 
             className="flex items-center cursor-pointer"
@@ -36,34 +36,35 @@ const Header = () => {
             <img
               src="/lovable-uploads/8ebe353a-d59e-4949-93cc-46caf2d026d3.png"
               alt="Honorato e Rocha Contabilidade"
-              className="h-12 w-auto"
+              className="h-10 sm:h-12 w-auto"
             />
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6 lg:space-x-8">
             <button
               onClick={() => scrollToSection("about")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary transition-colors font-medium text-sm lg:text-base"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("services")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary transition-colors font-medium text-sm lg:text-base"
             >
               Serviços
             </button>
             <button
               onClick={() => scrollToSection("contact")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary transition-colors font-medium text-sm lg:text-base"
             >
               Contato
             </button>
             <Button
               onClick={() => window.open("https://wa.me/5547997480033", "_blank")}
               variant="default"
-              className="bg-primary hover:bg-primary-dark"
+              size="sm"
+              className="bg-primary hover:bg-primary-dark text-sm lg:text-base"
             >
               Fale Conosco
             </Button>
@@ -71,7 +72,7 @@ const Header = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2"
+            className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? (

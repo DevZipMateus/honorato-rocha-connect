@@ -16,9 +16,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Info */}
-          <div className="space-y-8">
+          <div className="space-y-6 lg:space-y-8">
             <Card className="shadow-card hover:shadow-floating transition-all duration-300 group">
               <CardContent className="p-6">
                 <div className="flex items-start space-x-4">
@@ -129,17 +129,17 @@ const Contact = () => {
           </div>
 
           {/* Map */}
-          <div className="lg:pl-8">
-            <div className="bg-gradient-hero rounded-3xl p-8 text-center shadow-floating mb-8">
-              <h3 className="text-2xl font-bold text-primary-foreground mb-4">
+          <div className="lg:pl-8 mt-8 lg:mt-0">
+            <div className="bg-gradient-hero rounded-3xl p-6 lg:p-8 text-center shadow-floating mb-6 lg:mb-8">
+              <h3 className="text-xl lg:text-2xl font-bold text-primary-foreground mb-3 lg:mb-4">
                 Visite Nosso Escritório
               </h3>
-              <p className="text-primary-foreground/90 mb-6">
+              <p className="text-sm lg:text-base text-primary-foreground/90">
                 Localizado no centro de Garuva/SC, oferecemos fácil acesso e estacionamento próximo.
               </p>
             </div>
 
-            <div className="rounded-3xl overflow-hidden shadow-floating h-96">
+            <div className="rounded-3xl overflow-hidden shadow-floating h-64 sm:h-80 lg:h-96">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.8742963472887!2d-48.854595700000005!3d-26.030015600000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dc04924898b1eb%3A0x9230a1038124e4bb!2sHonorato%20e%20Rocha%20Contabilidade!5e0!3m2!1spt!2sbr!4v1732729200000!5m2!1spt!2sbr"
                 width="100%"
