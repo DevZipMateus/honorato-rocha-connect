@@ -100,7 +100,7 @@ const Services = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
-              onClick={() => window.open("https://wa.me/5547997480033", "_blank")}
+              onClick={() => window.open("https://wa.me/5547964300016", "_blank")}
               size="lg"
               variant="hero"
             >

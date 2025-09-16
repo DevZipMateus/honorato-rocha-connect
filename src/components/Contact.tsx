@@ -27,9 +27,9 @@ const Contact = () => {
                   </div>
                   <div className="flex-1">
                     <h4 className="text-lg font-semibold text-foreground mb-2">Telefone</h4>
-                    <p className="text-muted-foreground mb-4">(47) 99748-0033</p>
+                    <p className="text-muted-foreground mb-4">(47) 9643-0016</p>
                     <Button
-                      onClick={() => window.open("https://wa.me/5547997480033", "_blank")}
+                      onClick={() => window.open("https://wa.me/5547964300016", "_blank")}
                       variant="outline"
                       size="sm"
                       className="border-primary/20 text-primary hover:bg-primary/10"
