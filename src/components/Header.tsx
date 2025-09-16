@@ -38,7 +38,7 @@ const Header = () => {
             <button onClick={() => scrollToSection("contact")} className="text-foreground hover:text-primary transition-colors font-medium text-sm lg:text-base">
               Contato
             </button>
-            <Button onClick={() => window.open("https://wa.me/5547964300016", "_blank")} variant="default" size="sm" className="bg-primary hover:bg-primary-dark text-sm lg:text-base">
+            <Button onClick={() => window.open("https://wa.me/554796430016", "_blank")} variant="default" size="sm" className="bg-primary hover:bg-primary-dark text-sm lg:text-base">
               Fale Conosco
             </Button>
           </div>
@@ -61,7 +61,7 @@ const Header = () => {
               <button onClick={() => scrollToSection("contact")} className="text-left text-foreground hover:text-primary transition-colors font-medium py-2">
                 Contato
               </button>
-              <Button onClick={() => window.open("https://wa.me/5547964300016", "_blank")} variant="default" className="bg-primary hover:bg-primary-dark w-full">
+              <Button onClick={() => window.open("https://wa.me/554796430016", "_blank")} variant="default" className="bg-primary hover:bg-primary-dark w-full">
                 Fale Conosco
               </Button>
             </div>

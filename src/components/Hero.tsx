@@ -42,7 +42,7 @@ const Hero = () => {
             
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start max-w-md mx-auto lg:max-w-none">
               <Button
-                onClick={() => window.open("https://wa.me/5547964300016", "_blank")}
+                onClick={() => window.open("https://wa.me/554796430016", "_blank")}
                 size="lg"
                 variant="hero"
                 className="group shadow-floating w-full sm:w-auto"
